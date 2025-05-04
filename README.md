@@ -60,7 +60,7 @@ inventory-locking-app/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-username/inventory-locking-app.git
+git clone git@github.com:AsharSal/inventory-locking.git
 cd inventory-locking-app
 npm install
 ```
