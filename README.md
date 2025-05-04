@@ -40,6 +40,8 @@ Using `SELECT ... FOR UPDATE` inside a transaction locks the product row, allowi
 
 ## 📁 Project Structure
 
+```
+
 inventory-locking-app/
 ├── models/ # Sequelize models
 ├── migrations/ # DB schema
@@ -49,6 +51,9 @@ inventory-locking-app/
 ├── config/ # Sequelize DB config
 ├── app.js # Express app
 ├── package.json
+
+
+```
 
 ## ⚙️ Setup Instructions
 
@@ -62,11 +67,15 @@ npm install
 
 ### 2. commands to run
 
+```bash
+
 npx sequelize db:create
 npx sequelize db:migrate
 npx sequelize db:seed:all
 npm start
 node test/concurrentPurchaseTest.js
+
+```
 
 ---
 
